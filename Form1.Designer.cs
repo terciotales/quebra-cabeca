@@ -113,14 +113,15 @@
             this.starWarsToolStripMenuItem.CheckOnClick = true;
             this.starWarsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.starWarsToolStripMenuItem.Name = "starWarsToolStripMenuItem";
-            this.starWarsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.starWarsToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.starWarsToolStripMenuItem.Text = "Star Wars";
+            this.starWarsToolStripMenuItem.Click += new System.EventHandler(this.starWarsToolStripMenuItem_Click);
             // 
             // theWitcherToolStripMenuItem
             // 
             this.theWitcherToolStripMenuItem.CheckOnClick = true;
             this.theWitcherToolStripMenuItem.Name = "theWitcherToolStripMenuItem";
-            this.theWitcherToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.theWitcherToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.theWitcherToolStripMenuItem.Text = "The Witcher";
             this.theWitcherToolStripMenuItem.Click += new System.EventHandler(this.theWitcherToolStripMenuItem_Click);
             // 
@@ -128,18 +129,19 @@
             // 
             this.godOfWarToolStripMenuItem.CheckOnClick = true;
             this.godOfWarToolStripMenuItem.Name = "godOfWarToolStripMenuItem";
-            this.godOfWarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.godOfWarToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.godOfWarToolStripMenuItem.Text = "God Of War";
+            this.godOfWarToolStripMenuItem.Click += new System.EventHandler(this.godOfWarToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(134, 6);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -446,7 +448,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(706, 452);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
@@ -458,7 +460,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(706, 407);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
@@ -480,10 +482,10 @@
             // tentativas
             // 
             this.tentativas.AutoSize = true;
-            this.tentativas.Font = new System.Drawing.Font("Open Sans", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.tentativas.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.tentativas.Location = new System.Drawing.Point(490, 422);
             this.tentativas.Name = "tentativas";
-            this.tentativas.Size = new System.Drawing.Size(35, 42);
+            this.tentativas.Size = new System.Drawing.Size(32, 33);
             this.tentativas.TabIndex = 5;
             this.tentativas.Text = "0";
             // 

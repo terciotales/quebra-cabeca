@@ -20,13 +20,37 @@ namespace quebra_cabeca
             Properties.Resources.sw8,
             Properties.Resources.sw9,
         };
+        List<Bitmap> imageList2 = new List<Bitmap>()
+        {
+            Properties.Resources.sd1,
+            Properties.Resources.sd2,
+            Properties.Resources.sd3,
+            Properties.Resources.sd4,
+            Properties.Resources.sd5,
+            Properties.Resources.sd6,
+            Properties.Resources.sd7,
+            Properties.Resources.sd8,
+            Properties.Resources.sd9,
+        };
+        List<Bitmap> imageList3 = new List<Bitmap>()
+        {
+            Properties.Resources._1,
+            Properties.Resources._2,
+            Properties.Resources._3,
+            Properties.Resources._4,
+            Properties.Resources._5,
+            Properties.Resources._6,
+            Properties.Resources._7,
+            Properties.Resources._8,
+            Properties.Resources._9,
+        };
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        void Shuffle()
+        void Shuffle(List<Bitmap> lista)
         {
             
                 int j;
@@ -35,7 +59,7 @@ namespace quebra_cabeca
                 for (int i = 0; i < 9; i++)
                 {
                     Indexes.Remove((j = Indexes[r.Next(0, Indexes.Count)]));
-                    ((PictureBox)groupBox2.Controls[i]).Image = imageList[j];
+                    ((PictureBox)groupBox2.Controls[i]).Image = lista[j];
                 }
             
                 for (int i = 0; i < 9; i++)
@@ -66,14 +90,21 @@ namespace quebra_cabeca
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Shuffle();
+            this.Shuffle(imageList);
             this.SetAllowDrop();
             this.set_pieces();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Shuffle();
+            if (((ToolStripMenuItem)starWarsToolStripMenuItem).Checked == true)
+                this.Shuffle(imageList);
+            if (((ToolStripMenuItem)theWitcherToolStripMenuItem).Checked == true)
+                this.Shuffle(imageList2);
+            if (((ToolStripMenuItem)godOfWarToolStripMenuItem).Checked == true)
+                this.Shuffle(imageList3);
+            
+
             tentativas.Text = "0";
         }
 
@@ -531,7 +562,30 @@ namespace quebra_cabeca
 
         private void theWitcherToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            ((ToolStripMenuItem)theWitcherToolStripMenuItem).Checked = true;
+            ((ToolStripMenuItem)starWarsToolStripMenuItem).Checked = false; 
+            ((ToolStripMenuItem)godOfWarToolStripMenuItem).Checked =false;
 
+            
+            this.Shuffle(imageList2);
+        }
+
+        private void godOfWarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ((ToolStripMenuItem)godOfWarToolStripMenuItem).Checked = true;
+            ((ToolStripMenuItem)starWarsToolStripMenuItem).Checked = false;
+            ((ToolStripMenuItem)theWitcherToolStripMenuItem).Checked = false;
+            
+            this.Shuffle(imageList3);
+        }
+
+        private void starWarsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ((ToolStripMenuItem)starWarsToolStripMenuItem).Checked = true;
+            ((ToolStripMenuItem)godOfWarToolStripMenuItem).Checked = false;
+            ((ToolStripMenuItem)theWitcherToolStripMenuItem).Checked = false;
+
+            this.Shuffle(imageList);
         }
     }
 }
