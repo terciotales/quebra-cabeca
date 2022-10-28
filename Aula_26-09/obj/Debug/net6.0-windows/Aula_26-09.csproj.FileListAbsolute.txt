@@ -1,0 +1,17 @@
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\bin\Debug\net6.0-windows\Aula_26-09.exe
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\bin\Debug\net6.0-windows\Aula_26-09.deps.json
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\bin\Debug\net6.0-windows\Aula_26-09.runtimeconfig.json
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\bin\Debug\net6.0-windows\Aula_26-09.dll
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\bin\Debug\net6.0-windows\Aula_26-09.pdb
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.csproj.AssemblyReference.cache
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26_09.Form1.resources
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.csproj.GenerateResource.cache
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.GeneratedMSBuildEditorConfig.editorconfig
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.AssemblyInfoInputs.cache
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.AssemblyInfo.cs
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.csproj.CoreCompileInputs.cache
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.dll
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\refint\Aula_26-09.dll
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.pdb
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\Aula_26-09.genruntimeconfig.cache
+C:\desenvolvimento\puc-ferramentas-visuais\Aula_26-09\Aula_26-09\obj\Debug\net6.0-windows\ref\Aula_26-09.dll
